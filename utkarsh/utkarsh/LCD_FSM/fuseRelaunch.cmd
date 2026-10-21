@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/42363/LCD_FSM/LCD_FSM_TB_isim_beh.exe" -prj "C:/Xilinx/42363/LCD_FSM/LCD_FSM_TB_beh.prj" "work.LCD_FSM_TB" 

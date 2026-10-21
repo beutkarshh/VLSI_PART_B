@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/UNI_SHIFT_REGISTER_TB_isim_beh.exe" -prj "C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/UNI_SHIFT_REGISTER_TB_beh.prj" "work.UNI_SHIFT_REGISTER_TB" 

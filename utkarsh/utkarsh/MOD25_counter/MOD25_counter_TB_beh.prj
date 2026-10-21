@@ -1,0 +1,2 @@
+vhdl work "MOD25_counter.vhd"
+vhdl work "MOD25_counter_TB.vhd"

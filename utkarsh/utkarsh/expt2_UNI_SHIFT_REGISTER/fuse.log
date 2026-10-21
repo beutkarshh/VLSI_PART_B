@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/UNI_SHIFT_REGISTER_TB_isim_beh.exe -prj C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/UNI_SHIFT_REGISTER_TB_beh.prj work.UNI_SHIFT_REGISTER_TB 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/UNI_SHIFT_REGISTER.vhd" into library work
+Parsing VHDL file "C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/UNI_SHIFT_REGISTER_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 162900 KB
+Fuse CPU Usage: 203 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture uni_shift_register_arch of entity UNI_SHIFT_REGISTER [uni_shift_register_default]
+Compiling architecture behavior of entity uni_shift_register_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 VHDL Units
+Built simulation executable C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/UNI_SHIFT_REGISTER_TB_isim_beh.exe
+Fuse Memory Usage: 183672 KB
+Fuse CPU Usage: 296 ms

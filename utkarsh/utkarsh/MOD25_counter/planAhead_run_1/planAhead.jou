@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Aug 12 14:15:16 2026
+# Process ID: 10372
+# Log file: C:/Xilinx/42363/MOD25_counter/planAhead_run_1/planAhead.log
+# Journal file: C:/Xilinx/42363/MOD25_counter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx/42363/MOD25_counter/pa.fromNcd.tcl

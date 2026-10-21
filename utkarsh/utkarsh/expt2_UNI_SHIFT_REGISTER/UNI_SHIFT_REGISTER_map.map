@@ -1,0 +1,35 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'UNI_SHIFT_REGISTER'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s250e-pq208-5 -cm area -ir off -pr off
+-c 100 -o UNI_SHIFT_REGISTER_map.ncd UNI_SHIFT_REGISTER.ngd
+UNI_SHIFT_REGISTER.pcf 
+Target Device  : xc3s250e
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Fri Sep 04 10:06:46 2026
+
+Mapping design into LUTs...
+Running directed packing...
+ERROR:Pack:2811 - Directed packing was unable to obey the user design
+   constraints (LOC=P186) which requires the combination of the symbols listed
+   below to be packed into a single IBUF component.
+
+   The directed pack was not possible because: There is more than one pad
+   symbol.
+   The symbols involved are:
+   	BUF symbol "Pin_0_IBUF" (Output Signal = Pin_0_IBUF)
+   	PAD symbol "Pin<0>" (Pad Signal = Pin<0>)
+   	PAD symbol "Pin<1>" (Pad Signal = Pin<1>)
+
+Mapping completed.
+See MAP report file "UNI_SHIFT_REGISTER_map.mrp" for details.
+Problem encountered during the packing phase.
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0

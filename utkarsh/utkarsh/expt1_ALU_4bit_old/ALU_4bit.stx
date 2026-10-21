@@ -1,0 +1,53 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Xilinx/42363/ALU_4bit/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to C:/Xilinx/42363/ALU_4bit/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" in Library work.
+Entity <ALU_4bit_arch> compiled.
+ERROR:HDLParsers:3010 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 16. Entity ALU_4bit does not exist.
+ERROR:HDLParsers:3312 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 17. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 17. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 21. Undefined symbol 'A'.
+ERROR:HDLParsers:1209 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 21. A: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 21. Undefined symbol 'B'.
+ERROR:HDLParsers:1209 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 21. B: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 21. Undefined symbol 'F'.  Should it be: FF?
+ERROR:HDLParsers:1209 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 21. F: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 27. Undefined symbol 'result'.
+ERROR:HDLParsers:1209 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 30. result: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 45. NOT can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 48. NOT can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 49. NOT can not have such operands in this context.
+WARNING:HDLParsers:1406 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 21. No sensitivity list and no wait in the process
+ERROR:HDLParsers:3312 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 62. Undefined symbol 'Y'.
+ERROR:HDLParsers:3312 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 62. Undefined symbol 'result'.
+ERROR:HDLParsers:1209 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 62. result: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Xilinx/42363/ALU_4bit/ALU_4bit.vhd" Line 63. Undefined symbol 'C_B'.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> 
+
+Total memory usage is 212512 kilobytes
+
+Number of errors   :   18 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

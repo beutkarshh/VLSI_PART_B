@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="error" file="Pack" num="2811" delta="new" >Directed packing was unable to obey the user design constraints <arg fmt="%z" index="1">(LOC=P186) which requires the combination of the symbols listed below to be packed into a single IBUF component.
+
+The directed pack was not possible because: There is more than one pad symbol.
+The symbols involved are:
+	BUF symbol &quot;Pin_0_IBUF&quot; (Output Signal = Pin_0_IBUF)
+	PAD symbol &quot;Pin&lt;0&gt;&quot; (Pad Signal = Pin&lt;0&gt;)
+	PAD symbol &quot;Pin&lt;1&gt;&quot; (Pad Signal = Pin&lt;1&gt;)</arg>
+</msg>
+
+</messages>
+

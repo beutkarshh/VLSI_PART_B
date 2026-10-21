@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/42363/ALU_4bit/ALU_4bit_arch_tvm_isim_beh.exe" -prj "C:/Xilinx/42363/ALU_4bit/ALU_4bit_arch_tvm_beh.prj" "work.ALU_4bit_arch_tvm" 

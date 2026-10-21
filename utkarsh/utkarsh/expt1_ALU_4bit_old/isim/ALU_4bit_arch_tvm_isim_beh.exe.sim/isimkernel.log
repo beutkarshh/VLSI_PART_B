@@ -1,0 +1,10 @@
+Command line:
+   ALU_4bit_arch_tvm_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57653
+
+Fri Jul 31 13:30:29 2026
+
+
+ Elaboration Time: 0.046875 sec

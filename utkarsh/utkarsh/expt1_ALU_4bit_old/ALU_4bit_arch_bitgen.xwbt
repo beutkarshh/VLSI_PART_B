@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\42363\ALU_4bit\ALU_4bit_arch.ncd
+OUTFILE=C:\Xilinx\42363\ALU_4bit\ALU_4bit_arch.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5pq208
+WORKINGDIR=C:\Xilinx\42363\ALU_4bit
+LICENSE=WebPack
+USER_INFO=210912954_0_0_861

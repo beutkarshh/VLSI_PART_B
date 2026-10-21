@@ -1,0 +1,5 @@
+set -tmpdir "C:/Xilinx/42363/ALU_4bit/xst/projnav.tmp"
+set -xsthdpdir "C:/Xilinx/42363/ALU_4bit/xst"
+elaborate
+-ifn ALU_4bit_arch.prj
+-ifmt mixed

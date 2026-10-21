@@ -1,0 +1,29 @@
+Command line:
+   UNI_SHIFT_REGISTER_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53672
+
+Fri Sep 04 10:20:04 2026
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 826.991 Meg
+
+ Total Signals          : 16
+ Total Nets             : 19
+ Total Signal Drivers   : 8
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 5
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 521
+Total Line Count : 61
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 1143.14 Meg
+
+Fri Sep 04 10:20:46 2026
+

@@ -1,0 +1,93 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+
+entity FIFO is 
+generic (depth : integer := 16 );
+    Port ( data_in : in  STD_LOGIC_VECTOR (7 downto 0);
+           wr_en : in  STD_LOGIC;
+           rd_en : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           rst : in  STD_LOGIC;
+           fifo_full : out  STD_LOGIC;
+           fifo_empty : out  STD_LOGIC;
+           data_out : out  STD_LOGIC_VECTOR (7 downto 0));
+end FIFO;
+
+architecture FIFO_arch of FIFO is
+
+
+type memory_type is array (0 to depth-1) of std_logic_vector( 7 downto 0 ) ;
+signal memory : memory_type := (others => (others => '0'));
+signal readptr , writeptr : integer := 0 ;
+signal empty , full : std_logic := '0' ;
+
+
+begin
+
+fifo_empty <= empty ;
+fifo_full <= full ; 
+process(clk , rst) 
+variable num_elem : integer := 0 ;
+begin 
+
+
+if(rst = '1') then 
+          
+			 memory <= (others=> (others=> '0'));
+			 data_out <= (others => '0');
+			 empty <= '1';
+			 full <='0';
+			 readptr <= 0 ;
+			 writeptr <= 0;
+			 num_elem := 0 ;
+			 
+			 
+			 elsif(falling_edge (clk)) then 
+			 
+			         if (rd_en = '1' and empty = '0') then --read 
+						      data_out <= memory(readptr) ;
+								readptr<= readptr +1 ;
+								num_elem := num_elem -1 ;
+								end if ;
+								
+								
+								
+								if (wr_en = '1' and full = '0') then 
+								
+								
+								      memory(writeptr) <= data_in;
+										writeptr <= writeptr + 1 ;
+										num_elem := num_elem +1 ;
+										end if ;
+										
+										
+										if(readptr = depth -1 ) then 
+									     	readptr <= 0 ;
+										end if;
+										
+										if(writeptr = depth -1 ) then
+										writeptr <= 0 ;
+										end if ; 
+										
+										if (num_elem = 0 ) then
+										    empty <= '1' ;
+									   else 
+										    empty <= '0' ;
+									   end if ;
+										
+										
+										
+										if(num_elem = depth ) then 
+										       full <= '1';
+									   else
+										      full<= '0' ;
+										end if ;
+										
+										
+end if ; 
+end process ;
+end FIFO_arch;
+

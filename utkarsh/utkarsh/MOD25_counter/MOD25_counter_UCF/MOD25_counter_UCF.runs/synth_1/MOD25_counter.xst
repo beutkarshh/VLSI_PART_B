@@ -1,0 +1,9 @@
+set -loop_iteration_limit 1000
+run
+-ifn MOD25_counter.prj
+-top MOD25_counter
+-p xc3s250epq208-5
+-ofn MOD25_counter.ngc
+-opt_mode speed
+-opt_level 1
+-bufg 24

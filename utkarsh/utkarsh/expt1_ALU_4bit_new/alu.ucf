@@ -1,0 +1,16 @@
+net "A[3]" loc = P205;
+net "A[2]" loc = P206;
+net "A[1]" loc = P203;
+net "A[0]" loc = P200;
+net "B[3]" loc = P192;
+net "B[2]" loc = P193;
+net "B[1]" loc = P189;
+net "B[0]" loc = P190;
+net "F[2]" loc = P179;
+net "F[1]" loc = P180;
+net "F[0]" loc = P177;
+net "Y[3]" loc = P165;
+net "Y[2]" loc = P167;
+net "Y[1]" loc = P163;
+net "Y[0]" loc = P164;
+net "C_B" loc = P153;

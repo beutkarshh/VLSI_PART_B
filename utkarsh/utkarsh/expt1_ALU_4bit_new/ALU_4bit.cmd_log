@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "D:/VLSI_42227/Assignment_1/ALU_4bit.xst" -ofn "D:/VLSI_42227/Assignment_1/ALU_4bit.syr" 
+xst -intstyle ise -ifn "D:/VLSI_42227/Assignment_1/ALU_4bit.xst" -ofn "D:/VLSI_42227/Assignment_1/ALU_4bit.syr" 
+xst -intstyle ise -ifn "D:/VLSI_42227/Assignment_1/ALU_4bit.xst" -ofn "D:/VLSI_42227/Assignment_1/ALU_4bit.syr" 
+xst -intstyle ise -ifn "D:/VLSI_42227/Assignment_1/ALU_4bit.xst" -ofn "D:/VLSI_42227/Assignment_1/ALU_4bit.syr" 
+xst -intstyle ise -ifn "D:/VLSI_42227/Assignment_1/ALU_4bit.xst" -ofn "D:/VLSI_42227/Assignment_1/ALU_4bit.syr" 
+xst -intstyle ise -ifn "D:/VLSI_42227/Assignment_1/ALU_4bit.xst" -ofn "D:/VLSI_42227/Assignment_1/ALU_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 ALU_4bit.ngc ALU_4bit.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o ALU_4bit_map.ncd ALU_4bit.ngd ALU_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 ALU_4bit_map.ncd ALU_4bit.ncd ALU_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 ALU_4bit_map.ncd ALU_4bit.ncd ALU_4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ALU_4bit.twx ALU_4bit.ncd -o ALU_4bit.twr ALU_4bit.pcf 
+xst -intstyle ise -ifn "D:/VLSI_42227/Assignment_1/ALU_4bit.xst" -ofn "D:/VLSI_42227/Assignment_1/ALU_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm ALU_TB.bmm -p xc3sd1800a-fg676-4 ALU_4bit.ngc ALU_4bit.ngd  
+xst -intstyle ise -ifn "D:/VLSI_42227/Assignment_1/ALU_4bit.xst" -ofn "D:/VLSI_42227/Assignment_1/ALU_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 ALU_4bit.ngc ALU_4bit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 ALU_4bit.ngc ALU_4bit.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o ALU_4bit_map.ncd ALU_4bit.ngd ALU_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 ALU_4bit_map.ncd ALU_4bit.ncd ALU_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 ALU_4bit_map.ncd ALU_4bit.ncd ALU_4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ALU_4bit.twx ALU_4bit.ncd -o ALU_4bit.twr ALU_4bit.pcf -ucf alu.ucf 
+bitgen -intstyle ise -f ALU_4bit.ut ALU_4bit.ncd 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Student/Desktop/42130/expt2_UNI_SHIFT_REGISTER/xst"
+elaborate
+-ifn UNI_SHIFT_REGISTER.prj
+-ifmt mixed

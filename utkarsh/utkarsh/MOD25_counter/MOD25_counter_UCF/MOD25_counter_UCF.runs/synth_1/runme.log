@@ -1,0 +1,4 @@
+
+*** Running xst
+    with args -ifn "MOD25_counter.xst" -ofn "MOD25_counter.srp" -intstyle ise
+

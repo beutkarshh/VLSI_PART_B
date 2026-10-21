@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\42363\MOD25_counter\MOD25_counter.ncd
+OUTFILE=C:\Xilinx\42363\MOD25_counter\MOD25_counter.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5pq208
+WORKINGDIR=C:\Xilinx\42363\MOD25_counter
+LICENSE=WebPack
+USER_INFO=210912954_0_0_861
